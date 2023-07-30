@@ -1,0 +1,57 @@
+---
+import { Icon } from "astro-icon";
+
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="mt-auto bg-accent-primary text-white px-5 py-20">
+  <div
+    class="grid grid-cols-[2.5fr_1fr_1fr] gap-10 max-w-screen-xl mx-auto w-full"
+  >
+    <div class="space-y-5">
+      <a href="/">
+        <Icon width={40} name="logo" />
+      </a>
+      <p class="max-w-[44ch] opacity-70">
+        Enlightening Education and Research Foundation is advancing Social Good
+        through Education and Cultural Exchange
+      </p>
+    </div>
+
+    <div class="flex flex-col gap-2">
+      <a class="hover:opacity-70 transition" href="/about">About</a>
+      <a class="hover:opacity-70 transition" href="/wings">Wings</a>
+      <a class="hover:opacity-70 transition" href="/blog">Blog</a>
+      <a class="hover:opacity-70 transition" href="/contact">Contact</a>
+      <a class="hover:opacity-70 transition" href="/donation">Donation</a>
+    </div>
+
+    <div class="space-y-5">
+      <p>Follow Us</p>
+      <div class="flex items-center gap-4">
+        <a
+          href="/"
+          class="w-10 h-10 grid place-items-center rounded-full bg-white/10"
+        >
+          <Icon width={24} name="twitter" />
+        </a>
+
+        <a
+          href="/"
+          class="w-10 h-10 grid place-items-center rounded-full bg-white/10"
+        >
+          <Icon width={24} name="facebook" />
+        </a>
+
+        <a
+          href="/"
+          class="w-10 h-10 grid place-items-center rounded-full bg-white/10"
+        >
+          <Icon width={24} name="instagram" />
+        </a>
+      </div>
+
+      <p class="opacity-40 text-sm">All Rights Reserved © {currentYear}</p>
+    </div>
+  </div>
+</footer>

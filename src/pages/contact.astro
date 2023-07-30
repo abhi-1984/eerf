@@ -1,0 +1,78 @@
+---
+import { Icon } from "astro-icon";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <section class="px-5 py-24 bg-dim">
+    <div class="max-w-[720px] w-full mx-auto gap-6 flex flex-col">
+      <p class="text-2xl font-semibold text-accent-secondary">Contact Us</p>
+      <h1 class="text-6xl font-bold">Get in touch.</h1>
+      <p class="text-2xl/normal">
+        Contact us to learn more about our programs and initiatives, or to get
+        involved in our mission to build a universal community through education
+        and cultural exchange.
+      </p>
+    </div>
+  </section>
+
+  <section class="px-5 py-24">
+    <div class="max-w-[720px] mx-auto w-full">
+      <form class="flex flex-col gap-10">
+        <input class="p-2.5 border rounded-md" type="text" placeholder="Name" />
+        <input
+          class="p-2.5 border rounded-md"
+          type="email"
+          placeholder="Email"
+        />
+        <input
+          class="p-2.5 border rounded-md"
+          type="text"
+          placeholder="Subject"
+        />
+        <textarea
+          class="p-2.5 border rounded-md resize-none"
+          rows="4"
+          placeholder="Message"
+        >
+        </textarea>
+        <button
+          class="w-full px-5 py-2.5 rounded-full bg-accent-primary hover:bg-accent-secondary text-white font-semibold"
+          >Send</button
+        >
+      </form>
+    </div>
+  </section>
+
+  <section class="px-5 py-16 bg-dim">
+    <div class="max-w-[720px] mx-auto w-full">
+      <h2 class="text-2xl font-semibold mb-10">For More Information</h2>
+
+      <div class="grid grid-cols-2 gap-10">
+        <div class="w-full flex items-center gap-3">
+          <div class="w-12 h-12 rounded-md bg-black/5 grid place-items-center">
+            <Icon name="mail" size={24} />
+          </div>
+          <div>
+            <p class="opacity-40">Message</p>
+            <a class="text-accent-secondary" href="mailto:rajansinh9@gmail.com"
+              >rajansinh9@gmail.com</a
+            >
+          </div>
+        </div>
+
+        <div class="w-full flex items-center gap-3">
+          <div class="w-12 h-12 rounded-md bg-black/5 grid place-items-center">
+            <Icon name="phone" size={24} />
+          </div>
+          <div>
+            <p class="opacity-40">Call</p>
+            <a class="text-accent-secondary" href="tel:+91 97683 75606"
+              >+91 97683 75606</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

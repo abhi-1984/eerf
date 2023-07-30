@@ -1,0 +1,43 @@
+---
+import Banner from "../components/Banner.astro";
+import ImageLighbox from "../components/ImageLightbox";
+import Layout from "../layouts/Layout.astro";
+
+import Image1 from "../assets/gallery-1.jpg";
+import Image2 from "../assets/gallery-2.jpg";
+import Image3 from "../assets/gallery-3.jpg";
+import Image4 from "../assets/gallery-4.jpg";
+import Image5 from "../assets/gallery-5.jpg";
+import Image6 from "../assets/gallery-6.jpg";
+---
+
+<Layout title="Welcome to Astro.">
+  <section class="px-5 py-24 bg-dim">
+    <div class="max-w-[840px] w-full mx-auto gap-6 flex flex-col">
+      <p class="text-2xl font-semibold text-accent-secondary">Gallery</p>
+      <h1 class="text-6xl font-bold">See Our Impact</h1>
+      <p class="text-2xl/normal">
+        Take a look at some of the events, programs, and initiatives that we
+        have organized and supported.
+      </p>
+    </div>
+  </section>
+
+  <section class="px-5 py-24">
+    <div class="max-w-[840px] mx-auto grid grid-cols-3 gap-10">
+      <ImageLighbox client:load alt="NGO" image={Image1.src} />
+
+      <ImageLighbox client:load alt="NGO" image={Image2.src} />
+
+      <ImageLighbox client:load alt="NGO" image={Image3.src} />
+
+      <ImageLighbox client:load alt="NGO" image={Image4.src} />
+
+      <ImageLighbox client:load alt="NGO" image={Image5.src} />
+
+      <ImageLighbox client:load alt="NGO" image={Image6.src} />
+    </div>
+  </section>
+
+  <Banner />
+</Layout>

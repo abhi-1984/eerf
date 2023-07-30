@@ -1,0 +1,25 @@
+---
+import { Icon } from "astro-icon";
+---
+
+<nav
+  class="sticky top-0 z-50 h-20 px-5 bg-white text-black border-b border-ink/5"
+>
+  <div class="flex items-center h-full justify-between max-w-screen-xl mx-auto">
+    <a href="/">
+      <Icon width={40} name="logo" />
+    </a>
+
+    <div class="flex items-center gap-10">
+      <a href="/about">About</a>
+      <a href="/blogs">Blogs</a>
+      <a href="/wings">Wings</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/contact">Contact</a>
+      <a
+        class="px-5 py-1.5 bg-accent-primary text-white rounded-full hover:bg-accent-secondary"
+        href="/donate">Donate</a
+      >
+    </div>
+  </div>
+</nav>
