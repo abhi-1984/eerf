@@ -2,8 +2,8 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination, Navigation, Autoplay } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/navigation"
-import HeroImageOne from "../assets/home/hero-1.jpg"
-import HeroImageTwo from "../assets/home/hero-2.jpg"
+// import HeroImageOne from "../assets/home/hero-1.jpg"
+// import HeroImageTwo from "../assets/home/hero-2.jpg"
 
 export default function HeroSlider() {
   return (
@@ -24,11 +24,11 @@ export default function HeroSlider() {
         className="w-full h-full absolute inset-0"
       >
         <SwiperSlide>
-            <img src={HeroImageOne.src} alt="" className="w-full h-full object-cover" />
+            {/* <img src={HeroImageOne.src} alt="" className="w-full h-full object-cover" /> */}
         </SwiperSlide>
 
         <SwiperSlide>
-            <img src={HeroImageTwo.src} alt="" className="w-full h-full object-cover" />
+            {/* <img src={HeroImageTwo.src} alt="" className="w-full h-full object-cover" /> */}
         </SwiperSlide>
         
       </Swiper>
