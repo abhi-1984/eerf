@@ -23,9 +23,9 @@ const wings = await getCollection("wings");
     <div
       class="max-w-[840px] mx-auto flex flex-col items-center justify-center text-center"
     >
-      <p class="text-2xl font-semibold text-accent-secondary">About Us</p>
-      <h2 class="text-6xl font-bold mt-2">Our Vision and Mission</h2>
-      <p class="text-2xl/normal my-8">
+      <p class="md:text-2xl font-semibold text-accent-secondary">About Us</p>
+      <h2 class="text-2xl md:text-4xl lg:text-6xl font-bold mt-2">Our Vision and Mission</h2>
+      <p class="md:text-2xl/normal my-8">
         Our goal is to bring communities together and foster harmony through the
         creation of a universal platform, community, digital archival center,
         and cultural hub. We host events and activities to educate people about
@@ -43,23 +43,23 @@ const wings = await getCollection("wings");
     <div
       class="max-w-screen-lg mx-auto w-full flex flex-col items-center justify-center text-center"
     >
-      <p class="text-2xl font-semibold text-accent-secondary">What We Do</p>
-      <h2 class="text-6xl font-bold mt-2">
+      <p class="md:text-2xl font-semibold text-accent-secondary">What We Do</p>
+      <h2 class="text-2xl md:text-4xl lg:text-6xl font-bold mt-2">
         Different Wings of Our Organization
       </h2>
-      <p class="text-2xl/normal my-8 max-w-[56ch] mx-auto w-full">
+      <p class="md:text-2xl/normal my-8 max-w-[56ch] mx-auto w-full">
         Our organization aims to establish and maintain various wings to achieve
         and promote our main activities. These wings include:
       </p>
     </div>
 
-    <div class="max-w-screen-lg w-full mx-auto grid grid-cols-2 gap-10 mt-8">
+    <div class="max-w-screen-lg w-full mx-auto grid md:grid-cols-2 gap-10 mt-8">
       {
         wings.map((wing) => {
           return (
             <a
               href={`/wings/${wing.slug}`}
-              class="bg-white relative border rounded-lg overflow-hidden flex flex-col shadow-sm p-10 group"
+              class="bg-white relative border rounded-lg overflow-hidden flex flex-col shadow-sm p-5 md:p-10 group"
             >
               <div
                 class={`absolute top-0 inset-x-0 h-[160px]  ${wing.data.accent}`}

@@ -11,7 +11,7 @@ import Image10 from "../assets/about/image-10.jpg"
 
 export default function AboutTicketView() {
   return (
-    <div className="w-full grid grid-cols-5 gap-5 px-5">
+    <div className="w-full grid grid-cols-2 md:grid-cols-5 gap-5 px-5">
     
         <img
           src={Image1.src}

@@ -8,13 +8,13 @@ import Banner from "../components/Banner.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <section class="px-5 py-32">
+  <section class="px-5 py-16 md:py-24">
     <div class="max-w-[840px] w-full mx-auto gap-6 flex flex-col">
-      <p class="text-2xl font-semibold text-accent-secondary">About Us</p>
-      <h1 class="text-6xl font-bold">
+      <p class="md:text-2xl font-semibold text-accent-secondary">About Us</p>
+      <h1 class="text-2xl md:text-4xl lg:text-6xl font-bold">
         Collaborating to Create a More Inclusive World
       </h1>
-      <p class="text-2xl/normal">
+      <p class="md:text-2xl/normal">
         We are dedicated to building a universal platform and community through
         education, cultural exchange, and the use of various forms of mass
         communication. We believe that by bringing people from diverse
@@ -28,15 +28,15 @@ import Banner from "../components/Banner.astro";
     <AboutTickerView client:load />
   </section>
 
-  <section class="px-5 py-32">
+  <section class="px-5 py-16 md:py-24">
     <div class="max-w-[840px] w-full mx-auto gap-6 flex flex-col">
-      <p class="text-2xl font-semibold text-accent-secondary">
+      <p class="md:text-2xl font-semibold text-accent-secondary">
         Goals & Objectives
       </p>
-      <h2 class="text-6xl font-bold">
+      <h2 class="text-2xl md:text-4xl lg:text-6xl font-bold">
         Supporting Sustainable Practices and Social Good
       </h2>
-      <p class="text-2xl/normal">
+      <p class="md:text-2xl/normal">
         To achieve this mission, we offer a range of programs and initiatives
         that include establishing and running educational institutions,
         organizing cultural events and tours, and providing digital archival and
@@ -46,14 +46,14 @@ import Banner from "../components/Banner.astro";
         environmental conservation efforts.
       </p>
 
-      <p class="text-2xl/normal">
+      <p class="md:text-2xl/normal">
         We are committed to collaborating with other non-profit organizations to
         achieve our goals and pursue similar objectives. We believe that by
         working together, we can make a greater impact in creating a more
         inclusive and harmonious world.
       </p>
 
-      <p class="text-2xl/normal">
+      <p class="md:text-2xl/normal">
         Thank you for considering supporting our organization. We invite you to
         learn more about our programs and initiatives and to get involved in our
         mission to build a universal community through education and cultural
@@ -62,11 +62,11 @@ import Banner from "../components/Banner.astro";
     </div>
   </section>
 
-  <section class="px-5 py-32 bg-dim">
+  <section class="px-5 py-16 md:py-24 bg-dim">
     <div
-      class="grid grid-cols-2 gap-20 max-w-[840px] mx-auto w-full items-center"
+      class="grid md:grid-cols-2 gap-20 max-w-[840px] mx-auto w-full items-center"
     >
-      <div class="w-full h-full bg-black/5 relative rounded-lg overflow-hidden">
+      <div class="w-full hidden md:block h-full bg-black/5 relative rounded-lg overflow-hidden">
         <Image
           class="absolute inset-0 w-full h-full object-cover"
           src={CommunityImage}
