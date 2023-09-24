@@ -1,44 +1,14 @@
 ---
-import Banner from "../components/Banner.astro";
-import HeroSlider from "../components/HeroSlider";
-import Quote from "../components/Quote.astro";
-import SupportGridView from "../components/SupportGridView.astro";
-import Layout from "../layouts/Layout.astro";
+import Layout from "../../layouts/Layout.astro";
+
 import { getCollection } from "astro:content";
 
 
 const wings = await getCollection("wings");
 
 ---
-
-<Layout title="Home">
-
- <HeroSlider client:load />
- 
-
-  
-
-  <section class="px-5 py-24 bg-white">
-    <div
-      class="max-w-[840px] mx-auto flex flex-col items-center justify-center text-center"
-    >
-      <p class="text-2xl font-semibold text-accent-secondary">About Us</p>
-      <h2 class="text-6xl font-bold mt-2">Our Vision and Mission</h2>
-      <p class="text-2xl/normal my-8">
-        Our goal is to bring communities together and foster harmony through the
-        creation of a universal platform, community, digital archival center,
-        and cultural hub. We host events and activities to educate people about
-        various aspects of human life and bring together donors, mentors, &
-        students from diverse backgrounds to work towards a common cause.
-      </p>
-      <a
-        class="px-6 py-2 rounded-full font-medium bg-accent-primary text-white flex items-center justify-center"
-        href="/about">Learn More</a
-      >
-    </div>
-  </section>
-
-  <section class="px-5 pt-24 bg-dim">
+<Layout title="Wings">
+<section class="px-5 py-24 bg-dim">
     <div
       class="max-w-screen-lg mx-auto w-full flex flex-col items-center justify-center text-center"
     >
@@ -79,11 +49,4 @@ const wings = await getCollection("wings");
       }
     </div>
   </section>
-
-  <Quote />
-  <SupportGridView />
-
-  <Banner />
 </Layout>
-
-

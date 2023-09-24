@@ -3,7 +3,7 @@ name: "Educational Wing"
 description: "Our organization plans to establish education and research centers to study education systems, as well as provide academic studies, professional courses, and other skills in various formats."
 title: "Advancing Education and Career Opportunities"
 subtitle: "Join us in creating universally accepted education standards and supporting students on their career paths"
-accent: "bg-[#fff5e0]"
+accent: "bg-[#FDE7DE]"
 cover: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1099&q=80"
 ---
 

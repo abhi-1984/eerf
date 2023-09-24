@@ -11,6 +11,18 @@ const wingCollection = defineCollection({
     cover: z.string(),
   }),
 });
+
+const blogCollection = defineCollection({
+  type: "content", // v2.5.0 and later
+  schema: z.object({
+    title: z.string(),
+    draft: z.boolean(),
+    cover: z.string(),
+  }),
+});
+
+
 export const collections = {
   wings: wingCollection,
+  blogs: blogCollection,
 };

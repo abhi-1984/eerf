@@ -1,0 +1,38 @@
+---
+import { getCollection } from "astro:content"
+import Layout from "../../layouts/Layout.astro"
+import { Image } from "astro:assets"
+
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const blogEntries = await getCollection("blogs")
+  return blogEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }))
+}
+// 2. When it's time to render, you can get the entry directly from the prop
+const { entry } = Astro.props
+const { Content } = await entry.render()
+
+console.log("entry", entry)
+---
+
+<Layout title={entry.title}>
+  <section class="px-5 py-20">
+    <div class="w-full max-w-screen-sm mx-auto">
+      <a class="text-accent-secondary font-medium" href="/blogs">Back</a>
+      <h1 class="text-5xl/tight font-bold mt-2.5 mb-10">{entry.data.title}</h1>
+      <img
+        src={entry.data.cover}
+        alt={entry.data.title}
+        class="w-full aspect-video object-cover rounded-md"
+        loading="eager"
+        transition:name={`blog-hero-${entry.slug}`}
+      />
+      <div class="text-2xl/normal prose prose-xl">
+        <Content />
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -3,7 +3,7 @@ name: "Social Wing"
 description: "Our Organization aims to establish research centers to gather information about every region in the world and create a database, as well as study the work and impact of social reformers."
 title: "Creating Social Awareness"
 subtitle: "Join us in understanding and promoting sustainability through research, experiential learning, and social responsibility"
-accent: "bg-[#fff5e0]"
+accent: "bg-[#DEFAD6]"
 cover: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1099&q=80"
 ---
 

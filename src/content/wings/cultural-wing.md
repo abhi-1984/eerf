@@ -3,7 +3,7 @@ name: "Cultural Wing"
 description: "Our organization aims to establish research and training centers to study and compare the cultures, festivals, and rituals of different cultures, and to celebrate these traditions in a progressive and environmentally-conscious manner."
 title: "Exploring Spiritual Paths and Teachings"
 subtitle: "Join us in building a universal spiritual community and promoting peace within society."
-accent: "bg-[#fff5e0]"
+accent: "bg-[#FFE4D6]"
 cover: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1099&q=80"
 ---
 

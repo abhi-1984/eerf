@@ -3,7 +3,7 @@ name: "Health Wing"
 description: "Our organization works to establish medical centers and hold medical camps, as well as provide aid for medical treatment and promote healthy living through food festivals and centers."
 title: "Promoting Health and Wellness"
 subtitle: "Join us in advancing medical care and education through research, prevention, and nutrition"
-accent: "bg-[#fff5e0]"
+accent: "bg-[#FFE8E5]"
 cover: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1099&q=80"
 ---
 

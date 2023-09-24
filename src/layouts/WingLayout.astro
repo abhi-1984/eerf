@@ -4,6 +4,7 @@ import Footer from "../components/Footer.astro";
 import Quote from "../components/Quote.astro";
 import SupportGridView from "../components/SupportGridView.astro";
 import Banner from "../components/Banner.astro";
+import ImagesGrid from "../components/ImagesGrid";
 interface Props {
   title: string;
   wingName: string;
@@ -37,7 +38,9 @@ const { title, wingName, wingTitle, wingSubtitle } = Astro.props;
         </p>
       </div>
     </section>
+    <ImagesGrid />
     <slot />
+
     <Quote />
     <SupportGridView />
     <Banner />
