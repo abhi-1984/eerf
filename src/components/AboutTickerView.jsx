@@ -1,13 +1,13 @@
-import Image1 from "../assets/about/image-1.jpg";
-import Image2 from "../assets/about/image-2.jpg";
-import Image3 from "../assets/about/image-3.jpg";
-import Image4 from "../assets/about/image-4.jpg";
-import Image5 from "../assets/about/image-5.jpg";
-import Image6 from "../assets/about/image-6.jpg";
-import Image7 from "../assets/about/image-7.jpg";
-import Image8 from "../assets/about/image-8.jpg";
-import Image9 from "../assets/about/image-9.jpg";
-import Image10 from "../assets/about/image-10.jpg";
+// import Image1 from "../assets/about/image-1.jpg";
+// import Image2 from "../assets/about/image-2.jpg";
+// import Image3 from "../assets/about/image-3.jpg";
+// import Image4 from "../assets/about/image-4.jpg";
+// import Image5 from "../assets/about/image-5.jpg";
+// import Image6 from "../assets/about/image-6.jpg";
+// import Image7 from "../assets/about/image-7.jpg";
+// import Image8 from "../assets/about/image-8.jpg";
+// import Image9 from "../assets/about/image-9.jpg";
+// import Image10 from "../assets/about/image-10.jpg";
 import Marquee from "react-fast-marquee";
 
 export default function AboutTicketView() {
