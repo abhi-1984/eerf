@@ -2,8 +2,8 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination, Navigation, Autoplay } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/navigation"
-import image1 from "../assets/home/hero-1.jpg"
-import image2 from "../assets/home/hero-2.jpg"
+import image1 from "../assets/hero-1.jpg"
+import image2 from "../assets/hero-2.jpg"
 
 export default function HeroSlider() {
   return (
