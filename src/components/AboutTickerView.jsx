@@ -8,82 +8,86 @@
 // import Image8 from "../assets/about/image-8.jpg";
 // import Image9 from "../assets/about/image-9.jpg";
 // import Image10 from "../assets/about/image-10.jpg";
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 
 export default function AboutTicketView() {
   return (
-    <div className="flex flex-col gap-10">
-      <Marquee pauseOnHover>
-        ok
-        {/* <div className="flex items-center">
-          <img
-            src={Image1.src}
-            loading="lazy"
-            className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
-            alt=""
-          />
-          <img
-            src={Image2.src}
-            loading="lazy"
-            className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
-            alt=""
-          />
-          <img
-            src={Image3.src}
-            loading="lazy"
-            className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
-            alt=""
-          />
-          <img
-            src={Image4.src}
-            loading="lazy"
-            className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
-            alt=""
-          />
-          <img
-            src={Image5.src}
-            loading="lazy"
-            className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
-            alt=""
-          />
-        </div> */}
-      </Marquee>
+    // <div className="flex flex-col gap-10">
+    //   <Marquee pauseOnHover>
+    //     ok
+    //     {/* <div className="flex items-center">
+    //       <img
+    //         src={Image1.src}
+    //         loading="lazy"
+    //         className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
+    //         alt=""
+    //       />
+    //       <img
+    //         src={Image2.src}
+    //         loading="lazy"
+    //         className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
+    //         alt=""
+    //       />
+    //       <img
+    //         src={Image3.src}
+    //         loading="lazy"
+    //         className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
+    //         alt=""
+    //       />
+    //       <img
+    //         src={Image4.src}
+    //         loading="lazy"
+    //         className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
+    //         alt=""
+    //       />
+    //       <img
+    //         src={Image5.src}
+    //         loading="lazy"
+    //         className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
+    //         alt=""
+    //       />
+    //     </div> */}
+    //   </Marquee>
 
-      <Marquee direction="right" pauseOnHover>
-        bye
-        {/* <div className="flex items-center">
-          <img
-            src={Image6.src}
-            loading="lazy"
-            className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
-            alt=""
-          />
-          <img
-            src={Image7.src}
-            loading="lazy"
-            className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
-            alt=""
-          />
-          <img
-            src={Image8.src}
-            loading="lazy"
-            className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
-            alt=""
-          />
-          <img
-            src={Image9.src}
-            loading="lazy"
-            className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
-            alt=""
-          />
-          <img
-            src={Image10.src}
-            loading="lazy"
-            className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
-            alt=""
-          />
-        </div> */}
-      </Marquee>
+    //   <Marquee direction="right" pauseOnHover>
+    //     bye
+    //     {/* <div className="flex items-center">
+    //       <img
+    //         src={Image6.src}
+    //         loading="lazy"
+    //         className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
+    //         alt=""
+    //       />
+    //       <img
+    //         src={Image7.src}
+    //         loading="lazy"
+    //         className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
+    //         alt=""
+    //       />
+    //       <img
+    //         src={Image8.src}
+    //         loading="lazy"
+    //         className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
+    //         alt=""
+    //       />
+    //       <img
+    //         src={Image9.src}
+    //         loading="lazy"
+    //         className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
+    //         alt=""
+    //       />
+    //       <img
+    //         src={Image10.src}
+    //         loading="lazy"
+    //         className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
+    //         alt=""
+    //       />
+    //     </div> */}
+    //   </Marquee>
+    // </div>
+
+    <div>
+      ok
     </div>
   );
 }
