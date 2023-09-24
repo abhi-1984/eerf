@@ -2965,6 +2965,11 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-marquee-slider@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/react-marquee-slider/-/react-marquee-slider-1.1.5.tgz#5dc34c259071e513eb7c4084c405823233b28bb9"
+  integrity sha512-eta0DSKMu8F+82O3zF4jlWdTTlsmJg3h8n12trqCndBYo5DAc07odVlfxSfSsEGcBEHYli12RehrK3EYc4LwrQ==
+
 react-medium-image-zoom@^5.1.7:
   version "5.1.8"
   resolved "https://registry.yarnpkg.com/react-medium-image-zoom/-/react-medium-image-zoom-5.1.8.tgz#e4972849ce95ff9076fa6826b91fb6d9e8ea07ec"
