@@ -14,7 +14,8 @@ export default function AboutTicketView() {
   return (
     <div className="flex flex-col gap-10">
       <Marquee pauseOnHover>
-        <div className="flex items-center">
+        ok
+        {/* <div className="flex items-center">
           <img
             src={Image1.src}
             loading="lazy"
@@ -45,11 +46,12 @@ export default function AboutTicketView() {
             className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
             alt=""
           />
-        </div>
+        </div> */}
       </Marquee>
 
       <Marquee direction="right" pauseOnHover>
-        <div className="flex items-center">
+        bye
+        {/* <div className="flex items-center">
           <img
             src={Image6.src}
             loading="lazy"
@@ -80,7 +82,7 @@ export default function AboutTicketView() {
             className="w-full aspect-video mx-5 max-w-[320px] rounded-lg object-cover"
             alt=""
           />
-        </div>
+        </div> */}
       </Marquee>
     </div>
   );
