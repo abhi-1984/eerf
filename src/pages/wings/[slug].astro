@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import WingLayout from "../../layouts/WingLayout.astro";
+import ImagesGrid from "../../components/ImagesGrid";
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
@@ -21,6 +22,7 @@ const { Content } = await entry.render();
   wingTitle={entry.data.title}
   wingSubtitle={entry.data.subtitle}
 >
+  <ImagesGrid wing={entry.data.name} />
   <section class="px-5 pt-32 bg-dim">
     <div class="w-full max-w-[840px] mx-auto text-2xl/normal prose prose-xl">
       <Content />

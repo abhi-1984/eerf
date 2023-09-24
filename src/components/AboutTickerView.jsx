@@ -8,12 +8,12 @@ import Image7 from "../assets/about/image-7.jpg";
 import Image8 from "../assets/about/image-8.jpg";
 import Image9 from "../assets/about/image-9.jpg";
 import Image10 from "../assets/about/image-10.jpg";
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 
 export default function AboutTicketView() {
   return (
     <div className="flex flex-col gap-10">
-      <Marquee pauseOnHover>
+      {/* <Marquee pauseOnHover>
         <div className="flex items-center">
           <img
             src={Image1.src}
@@ -81,7 +81,7 @@ export default function AboutTicketView() {
             alt=""
           />
         </div>
-      </Marquee>
+      </Marquee> */}
     </div>
   );
 }

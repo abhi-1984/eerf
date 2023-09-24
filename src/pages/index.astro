@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import Banner from "../components/Banner.astro";
 import HeroSlider from "../components/HeroSlider";
 import Quote from "../components/Quote.astro";
@@ -63,10 +64,12 @@ const wings = await getCollection("wings");
               <div
                 class={`absolute top-0 inset-x-0 h-[160px]  ${wing.data.accent}`}
               />
-              <img
+              <Image
                 src={wing.data.cover}
                 alt={wing.data.title}
                 loading="lazy"
+                width={320}
+                height={160}
                 class="w-full relative aspect-[2/1] object-cover rounded-lg"
               />
               <p class="text-2xl font-bold mb-2 mt-6 group-hover:text-accent-secondary">

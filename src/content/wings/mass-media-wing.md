@@ -4,7 +4,7 @@ description: "Our organization creates films and scripts for all ages on topics 
 title: "Creating and Distributing Digital Content and Films"
 subtitle: "Join us in educating and inspiring people of all ages through films, digital content, and online forums"
 accent: "bg-[#E5FFFA]"
-cover: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1099&q=80"
+cover: "./mass-media.jpg"
 ---
 
 We are dedicated to creating and distributing digital content and films that educate and inspire people of all ages.

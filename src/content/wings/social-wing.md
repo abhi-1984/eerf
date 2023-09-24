@@ -4,7 +4,7 @@ description: "Our Organization aims to establish research centers to gather info
 title: "Creating Social Awareness"
 subtitle: "Join us in understanding and promoting sustainability through research, experiential learning, and social responsibility"
 accent: "bg-[#DEFAD6]"
-cover: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1099&q=80"
+cover: "./social.jpg"
 ---
 
 We are committed to understanding and promoting social and environmental awareness and sustainability.
