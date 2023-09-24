@@ -18,7 +18,7 @@ import Layout from "../layouts/Layout.astro";
 
   <section class="px-5 py-24">
     <div class="max-w-[720px] mx-auto w-full">
-      <form class="flex flex-col gap-10">
+      <form netlify class="flex flex-col gap-10">
         <input class="p-2.5 border rounded-md" type="text" placeholder="Name" />
         <input
           class="p-2.5 border rounded-md"
@@ -37,6 +37,7 @@ import Layout from "../layouts/Layout.astro";
         >
         </textarea>
         <button
+          type="submit"
           class="w-full px-5 py-2.5 rounded-full bg-accent-primary hover:bg-accent-secondary text-white font-semibold"
           >Send</button
         >

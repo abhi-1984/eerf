@@ -24,11 +24,11 @@ export default function HeroSlider() {
         className="w-full h-full absolute inset-0"
       >
         <SwiperSlide>
-            <img src={HeroImageOne.src} alt="" className="w-full h-full object-cover" />
+            {/* <img src={HeroImageOne.src} alt="" className="w-full h-full object-cover" /> */}
         </SwiperSlide>
 
         <SwiperSlide>
-            <img src={HeroImageTwo.src} alt="" className="w-full h-full object-cover" />
+            {/* <img src={HeroImageTwo.src} alt="" className="w-full h-full object-cover" /> */}
         </SwiperSlide>
         
       </Swiper>
