@@ -44,8 +44,6 @@ import spiritualImage5 from "../assets/spiritual/5.jpg"
 import mediaImage1 from "../assets/mass-media/1.jpg"
 
 export default function ImagesGrid({ wing }) {
-  console.log("wig", wing)
-
   if (wing === "Cultural Wing") {
     return (
       <section className="pb-32">
@@ -254,7 +252,6 @@ export default function ImagesGrid({ wing }) {
               className="w-full h-full object-cover rounded-md absolute inset-0"
             />
           </div>
-         
         </div>
       </section>
     )
@@ -393,11 +390,10 @@ export default function ImagesGrid({ wing }) {
       </section>
     )
   }
-  
+
   if (wing === "Political Wing") {
     return null
-  }
-  else {
+  } else {
     return (
       <section className="pb-32">
         <div className="max-w-[840px] mx-auto grid grid-cols-4 gap-5 grid-rows-2">
