@@ -3,11 +3,14 @@ import { Icon } from "astro-icon";
 ---
 
 <nav
-  class="sticky top-0 z-50 h-20 px-5 bg-white text-black border-b border-ink/5"
+  class="sticky top-0 z-50 h-20 px-5 bg-[#0A1356] text-white border-b border-ink/5"
 >
   <div class="flex items-center h-full justify-between max-w-screen-xl mx-auto">
-    <a href="/">
-      <Icon width={40} name="logo" />
+    <a class="flex items-center justify-center gap-4" href="/">
+      <Icon width={48} name="logo" />
+      <p class="text-accent-secondary font-bold hidden lg:block">
+        Enlightening Education & Research Foundation
+      </p>
     </a>
 
     <div class="flex items-center gap-10 ">
@@ -17,7 +20,7 @@ import { Icon } from "astro-icon";
       <a class="hover:text-accent-secondary hidden md:inline-flex" href="/gallery">Gallery</a>
       <a class="hover:text-accent-secondary hidden md:inline-flex" href="/contact">Contact</a>
       <a
-        class="px-5 py-1.5 bg-accent-primary text-white rounded-full hover:bg-accent-secondary"
+        class="px-5 py-1.5 bg-accent-secondary text-white rounded-full hover:bg-accent-secondary"
          href="/donation">Donate</a
       >
     </div>
